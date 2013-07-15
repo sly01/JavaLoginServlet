@@ -44,7 +44,7 @@ public class checkServlet extends HttpServlet {
         String password = request.getParameter("password");
         String hostname = "jdbc:mysql://localhost/JavaServletTest";
         String dbUsername = "root";
-        String dbPassword = "password";
+        String dbPassword = "sly6465";
         try {
 
             if (username.length() != 0 && password.length() != 0) {
